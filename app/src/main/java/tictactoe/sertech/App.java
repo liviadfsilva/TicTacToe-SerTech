@@ -21,6 +21,9 @@ public class App {
             System.out.println();
         }
 
+        // Turn
+        int whoseTurn = 0;
+
         // Game on
         boolean game = true;
         while(game){
@@ -30,7 +33,17 @@ public class App {
             int lineChosen = scanner.nextInt();
             int rowChosen = scanner.nextInt();
 
-            board[lineChosen][rowChosen] = 'X';
+            if(whoseTurn == 0 && board[lineChosen][rowChosen] == ' '){
+                board[lineChosen][rowChosen] = 'X';
+                whoseTurn++;
+            }
+            else if(whoseTurn == 1 && board[lineChosen][rowChosen] == ' '){
+                board[lineChosen][rowChosen] = 'O';
+                whoseTurn--;
+            }
+            else{
+                System.out.println("Invalid option.");
+            }
 
             System.out.println();
 

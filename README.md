@@ -3,7 +3,7 @@
 ![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge)
 
 ## Sobre 🚀
-Este é um jogo de Tic-Tac-Toe, ou Jogo da Velha, desenvolvido como projeto para o programa Ser+ Tech 💚 e para ser executado na linha de comando, com o objetivo de praticar conceitos fundamentais do Java, como por exemplo:
+Este é um jogo de Tic-Tac-Toe, ou Jogo da Velha, é um jogo de linha de comando desenvolvido como projeto para o programa Ser+ Tech. O objetivo foi praticar conceitos fundamentais do Java, como por exemplo:
 
 - Arrays
 - Estruturas de controle

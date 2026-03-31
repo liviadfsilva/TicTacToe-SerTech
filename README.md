@@ -19,7 +19,7 @@ Este é um jogo de Tic-Tac-Toe, ou Jogo da Velha, é um jogo de linha de comando
 
    ```sh
    git clone https://github.com/liviadfsilva/TicTacToe-SerTech.git
-   cd GirlCodeDecoder-SilentHill-f
+   cd TicTacToe-SerTech
    ```
 
 2. **Acesse a pasta do projeto:**
